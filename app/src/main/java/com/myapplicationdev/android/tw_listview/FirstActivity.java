@@ -26,7 +26,5 @@ public class FirstActivity extends AppCompatActivity {
         al.add("Year 2");
         al.add("Year 3");
 
-
-
     }
 }

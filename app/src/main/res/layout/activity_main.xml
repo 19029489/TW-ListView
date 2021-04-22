@@ -7,6 +7,13 @@
     android:orientation="vertical"
     tools:context="com.myapplicationdev.android.tw_listview.FirstActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DMSD Course Structure"
+        android:textSize="15pt"/>
+
     <ListView
         android:id="@+id/lv"
         android:layout_width="match_parent"
