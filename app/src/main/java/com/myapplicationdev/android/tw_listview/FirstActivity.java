@@ -38,6 +38,7 @@ public class FirstActivity extends AppCompatActivity {
                 String selectedYear = al.get(position);
 
                 Intent i = new Intent(FirstActivity.this, SecondActivity.class);
+                i.putExtra("year", selectedYear);
                 startActivity(i);
 
             }
