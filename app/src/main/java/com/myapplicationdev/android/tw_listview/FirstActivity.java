@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.time.Year;
 import java.util.ArrayList;
 
 public class FirstActivity extends AppCompatActivity {
@@ -18,11 +19,13 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        lv = (ListView) this.findViewById(R.id.lv);
 
         al = new ArrayList<String>();
         al.add("Year 1");
         al.add("Year 2");
         al.add("Year 3");
+
 
 
     }
