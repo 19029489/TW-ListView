@@ -34,7 +34,7 @@ public class ModuleAdapter extends ArrayAdapter<Module>{
         LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         // "Inflate" the row.xml as the layout for the View object
-        View rowView = inflater.inflate(R.layout.activity_second, parent, false);
+        View rowView = inflater.inflate(R.layout.row, parent, false);
 
         // Get the TextView object
         tvYear = (TextView) rowView.findViewById(R.id.tvYear);
