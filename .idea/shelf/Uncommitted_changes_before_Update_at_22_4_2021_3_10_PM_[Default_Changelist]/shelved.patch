@@ -1,0 +1,91 @@
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"RemoteRepositoriesConfiguration\">\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"central\" />\r\n      <option name=\"name\" value=\"Maven Central repository\" />\r\n      <option name=\"url\" value=\"https://repo1.maven.org/maven2\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"jboss.community\" />\r\n      <option name=\"name\" value=\"JBoss Community repository\" />\r\n      <option name=\"url\" value=\"https://repository.jboss.org/nexus/content/repositories/public/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"BintrayJCenter\" />\r\n      <option name=\"name\" value=\"BintrayJCenter\" />\r\n      <option name=\"url\" value=\"https://jcenter.bintray.com/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"Google\" />\r\n      <option name=\"name\" value=\"Google\" />\r\n      <option name=\"url\" value=\"https://dl.google.com/dl/android/maven2/\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n<<<<<<< HEAD\r\n      <option name=\"id\" value=\"C:\\Users\\19029489\\.android\\Sdk\\extras\\android\\m2repository\" />\r\n      <option name=\"name\" value=\"C:\\Users\\19029489\\.android\\Sdk\\extras\\android\\m2repository\" />\r\n      <option name=\"url\" value=\"file:/$USER_HOME$/.android/Sdk/extras/android/m2repository\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"C:\\Users\\19029489\\.android\\Sdk\\extras\\google\\m2repository\" />\r\n      <option name=\"name\" value=\"C:\\Users\\19029489\\.android\\Sdk\\extras\\google\\m2repository\" />\r\n      <option name=\"url\" value=\"file:/$USER_HOME$/.android/Sdk/extras/google/m2repository\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"C:\\Users\\19029489\\.android\\Sdk\\extras\\m2repository\" />\r\n      <option name=\"name\" value=\"C:\\Users\\19029489\\.android\\Sdk\\extras\\m2repository\" />\r\n      <option name=\"url\" value=\"file:/$USER_HOME$/.android/Sdk/extras/m2repository\" />\r\n=======\r\n      <option name=\"id\" value=\"C:\\Users\\19034097\\AppData\\Local\\Android\\Sdk\\extras\\google\\m2repository\" />\r\n      <option name=\"name\" value=\"C:\\Users\\19034097\\AppData\\Local\\Android\\Sdk\\extras\\google\\m2repository\" />\r\n      <option name=\"url\" value=\"file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/google/m2repository\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"C:\\Users\\19034097\\AppData\\Local\\Android\\Sdk\\extras\\android\\m2repository\" />\r\n      <option name=\"name\" value=\"C:\\Users\\19034097\\AppData\\Local\\Android\\Sdk\\extras\\android\\m2repository\" />\r\n      <option name=\"url\" value=\"file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository\" />\r\n    </remote-repository>\r\n    <remote-repository>\r\n      <option name=\"id\" value=\"C:\\Users\\19034097\\AppData\\Local\\Android\\Sdk\\extras\\m2repository\" />\r\n      <option name=\"name\" value=\"C:\\Users\\19034097\\AppData\\Local\\Android\\Sdk\\extras\\m2repository\" />\r\n      <option name=\"url\" value=\"file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/m2repository\" />\r\n>>>>>>> 19cc47ca1322cbf0c486086a2ec5cc54fb1e26e5\r\n    </remote-repository>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/jarRepositories.xml	(revision 12c395d768bd959a3b55ce5a54d6e60266b45f46)
++++ .idea/jarRepositories.xml	(date 1619073542729)
+@@ -22,35 +22,19 @@
+       <option name="url" value="https://dl.google.com/dl/android/maven2/" />
+     </remote-repository>
+     <remote-repository>
+-<<<<<<< HEAD
+-      <option name="id" value="C:\Users\19029489\.android\Sdk\extras\android\m2repository" />
+-      <option name="name" value="C:\Users\19029489\.android\Sdk\extras\android\m2repository" />
+-      <option name="url" value="file:/$USER_HOME$/.android/Sdk/extras/android/m2repository" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="C:\Users\19029489\.android\Sdk\extras\google\m2repository" />
+-      <option name="name" value="C:\Users\19029489\.android\Sdk\extras\google\m2repository" />
+-      <option name="url" value="file:/$USER_HOME$/.android/Sdk/extras/google/m2repository" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="C:\Users\19029489\.android\Sdk\extras\m2repository" />
+-      <option name="name" value="C:\Users\19029489\.android\Sdk\extras\m2repository" />
+-      <option name="url" value="file:/$USER_HOME$/.android/Sdk/extras/m2repository" />
+-=======
+-      <option name="id" value="C:\Users\19034097\AppData\Local\Android\Sdk\extras\google\m2repository" />
+-      <option name="name" value="C:\Users\19034097\AppData\Local\Android\Sdk\extras\google\m2repository" />
+-      <option name="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/google/m2repository" />
++      <option name="id" value="C:\Android\Sdk\extras\android\m2repository" />
++      <option name="name" value="C:\Android\Sdk\extras\android\m2repository" />
++      <option name="url" value="file:/$PROJECT_DIR$/../../../../Android/Sdk/extras/android/m2repository" />
+     </remote-repository>
+     <remote-repository>
+-      <option name="id" value="C:\Users\19034097\AppData\Local\Android\Sdk\extras\android\m2repository" />
+-      <option name="name" value="C:\Users\19034097\AppData\Local\Android\Sdk\extras\android\m2repository" />
+-      <option name="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository" />
++      <option name="id" value="C:\Android\Sdk\extras\google\m2repository" />
++      <option name="name" value="C:\Android\Sdk\extras\google\m2repository" />
++      <option name="url" value="file:/$PROJECT_DIR$/../../../../Android/Sdk/extras/google/m2repository" />
+     </remote-repository>
+     <remote-repository>
+-      <option name="id" value="C:\Users\19034097\AppData\Local\Android\Sdk\extras\m2repository" />
+-      <option name="name" value="C:\Users\19034097\AppData\Local\Android\Sdk\extras\m2repository" />
+-      <option name="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/m2repository" />
+->>>>>>> 19cc47ca1322cbf0c486086a2ec5cc54fb1e26e5
++      <option name="id" value="C:\Android\Sdk\extras\m2repository" />
++      <option name="name" value="C:\Android\Sdk\extras\m2repository" />
++      <option name="url" value="file:/$PROJECT_DIR$/../../../../Android/Sdk/extras/m2repository" />
+     </remote-repository>
+   </component>
+ </project>
+\ No newline at end of file
+Index: app/src/main/java/com/myapplicationdev/android/tw_listview/FirstActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.myapplicationdev.android.tw_listview;\r\n\r\nimport android.os.Bundle;\r\nimport android.support.v7.app.AppCompatActivity;\r\nimport android.widget.ArrayAdapter;\r\nimport android.widget.ListView;\r\n\r\nimport java.time.Year;\r\nimport java.util.ArrayList;\r\n\r\npublic class FirstActivity extends AppCompatActivity {\r\n\r\n    ListView lv;\r\n    ArrayList<String> al;\r\n    ArrayAdapter<String> aa;\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_main);\r\n\r\n        lv = (ListView) this.findViewById(R.id.lv);\r\n\r\n        al = new ArrayList<String>();\r\n        al.add(\"Year 1\");\r\n        al.add(\"Year 2\");\r\n        al.add(\"Year 3\");\r\n\r\n        aa = new ArrayAdapter(this, R.layout.activity_main, al);\r\n        lv.setAdapter(aa);\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/myapplicationdev/android/tw_listview/FirstActivity.java	(revision 12c395d768bd959a3b55ce5a54d6e60266b45f46)
++++ app/src/main/java/com/myapplicationdev/android/tw_listview/FirstActivity.java	(date 1619075399178)
+@@ -2,6 +2,8 @@
+ 
+ import android.os.Bundle;
+ import android.support.v7.app.AppCompatActivity;
++import android.view.View;
++import android.widget.AdapterView;
+ import android.widget.ArrayAdapter;
+ import android.widget.ListView;
+ 
+@@ -28,6 +30,17 @@
+ 
+         aa = new ArrayAdapter(this, R.layout.activity_main, al);
+         lv.setAdapter(aa);
++/*
++        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
++            @Override
++            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
++                String selectedYear = al.get(position);
++
++
++            }
++        });
++
++ */
+ 
+     }
+ }
